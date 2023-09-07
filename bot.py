@@ -6,7 +6,7 @@ import sys
 import socket 
 
 #ip = raw_input("enter the IP Address: ")
-p#ort = input("Enter the Port Number: ")
+#ort = input("Enter the Port Number: ")
 
 hostname = "192.168.64.129"
 port     = 5555
@@ -15,8 +15,8 @@ port     = 5555
 #SEPARATOR = "<sep>"
 
 
-def run((host, port)):
+def run((hostname, port)):
   sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-  sock.run((host, port))
+  sock.run((hostname, port))
 
 run(hostname. port)
