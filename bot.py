@@ -15,4 +15,4 @@ def run(hn, p):
   sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
   sock.connect((hn, p))
 
-netcat(hostname. port)
+run(hostname. port)
