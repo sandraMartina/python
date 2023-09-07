@@ -3,16 +3,20 @@
 import os
 import subprocess
 import sys
+import socket 
 
-hostname = sys.argv[1]
-port     = int(sys.argv[2])
+#ip = raw_input("enter the IP Address: ")
+p#ort = input("Enter the Port Number: ")
+
+hostname = "192.168.64.129"
+port     = 5555
 #BUFFER_SIZE = 1024 * 128 # 128KB max size of messages, feel free to increase
 # separator string for sending 2 messages in one go
 #SEPARATOR = "<sep>"
 
 
-def run(hn, p):
+def run((host, port)):
   sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-  sock.connect((hn, p))
+  sock.run((host, port))
 
 run(hostname. port)
