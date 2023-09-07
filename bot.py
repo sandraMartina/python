@@ -5,7 +5,7 @@ import subprocess
 import sys
 
 hostname = sys.argv[1]
-port = int(sys.argv[2])
+port     = int(sys.argv[2])
 #BUFFER_SIZE = 1024 * 128 # 128KB max size of messages, feel free to increase
 # separator string for sending 2 messages in one go
 #SEPARATOR = "<sep>"
